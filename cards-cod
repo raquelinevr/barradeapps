@@ -49,7 +49,7 @@ fun MediumTopAppBarExample() {
                     )
                 },
                 navigationIcon = {
-                    IconButton(onClick = { /* do something */ }) {
+                    IconButton(onClick = { }) {
                         Icon(
                             imageVector = Icons.Filled.ArrowBack,
                             contentDescription = "Localized description"
@@ -57,7 +57,7 @@ fun MediumTopAppBarExample() {
                     }
                 },
                 actions = {
-                    IconButton(onClick = { /* do something */ }) {
+                    IconButton(onClick = { }) {
                         Icon(
                             imageVector = Icons.Filled.Menu,
                             contentDescription = "Localized description"
